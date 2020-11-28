@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+<head>
+ 
+ 
+  <meta charset="UTF-8">
+
+  <link href="%20rel=" stylesheet="" type="text/css">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+
+  <style type="text/css">
+.right-align { text-align:right; }
+.right-align  { float: none;}
+#banner { display:block; line-height:0; margin:10px 0; }
+, :visited { padding: 10px; background: none; }
+input[type=submit]#nav-search-btn { background: #bebb95 url(/static/imgs/icons/) center center no-repeat; background-size: 16px}
+
+.donate-button {
+    background: #c43632 !important;
+    color: #f8f8f0 !important;
+}
+.donate-button:hover {
+    background: #ec8b30 !important;
+}
+
+.centre { text-align:center; }
+ { display: inline-block; margin: 0 auto; background: #c03632; color: white; padding: 10px 36px; text-transform:uppercase; }
+:hover { text-decoration:none; background:#ec8b30; color:white;  }
+
+@media screen and (max-width:1023px) {
+ .menu-icon, .menu-button { padding: 10px !important; }
+}
+
+
+.raw-html ul, .raw-html ol {
+    text-indent: 0px;
+    display: block;
+    margin: 20px 0 30px 5%;
+    padding: 0;
+}
+.raw-html ol li {
+    list-style: decimal outside !important;
+}
+.raw-html ol li ul li {
+    list-style: disc outside !important;
+}
+
+.raw-html hr {
+    height: 20px;
+    width: 80%;
+    display: block;
+    border-bottom: 4px solid #eceadd;
+    margin: 0px auto 50px;
+}
+
+
+/* inc. RRS logo */
+.footer  {
+    margin: 19px 0 8px 40px;
+}
+.footer .foot-right {
+    padding: 40px 0 0;
+}
+.footer .foot-left {
+    padding: 10px 0 0;
+}
+.rrs-logo a {
+    display: block;
+    width: 230px;
+}
+.rrs-logo a:hover {
+    text-decoration: none;
+}
+.rrs-logo img {
+    display: block;
+    max-width: 200px;
+    width: 100%;
+    margin: 0px auto 10px;
+}
+ {
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    margin: 0 auto 20px;
+}
+
+@media only screen and (max-width: 767px) {
+ .footer , .footer .foot-right { text-align:center !important; }
+ .footer  { margin: 25px 0 10px !important; } 
+ .footer .foot-right { padding:0 !important; }
+ .footer .foot-left { padding: 50px 0 0 !important; } 
+ .footer  {
+    display: block!important;
+    float: none!important;
+    margin: 0 auto 0 !important;
+    width: 200px!important;
+ }
+ .rrs-logo a { margin: 0 auto 40px!important; }
+ /* .rrs-logo img { max-width:100px !important; } */
+ .footer-list nav { margin: 0 0 20px; }
+ .footer-list ul { display:block !important; float:none !important; }
+ .footer-list ul li { 
+   display:block !important; 
+   float:none !important; 
+   margin: 0 15px 10px 0!important; 
+   border: 0 !important;
+   text-align: center;
+ }
+ .footer-list p { margin-bottom: 12px !important; } 
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+ .footer-list p {
+    display: block !important;
+    float: none!important;
+    margin: 0 0 10px!important;
+ }
+ .footer-list ul { 
+      float: none !important;
+    display: block !important;
+ }
+ .footer-list ul li {
+      margin: 0 10px 10px 0!important;
+    padding: 0 !important;
+    border: 0 !important;
+ }
+ /* .rrs-logo img { max-width:130px !important; } */
+}
+
+  </style><!-- Global site tag () - Google Analytics -->
+
+ 
+  
+  <meta name="description" content="{keyword}">
+
+  
+  
+  
+ 
+ 
+ 
+  <title>{keyword}</title>
+ 
+</head>
+
+
+<body>
+
+<div id="body-wrapper">
+<header>
+  </header>
+<div class="nav-wrap group right-align not-mobile">
+    <span class="menu-icon menu-button">Send in content</span>
+    <span class="menu-icon menu-button donate-button">Donate</span>
+  </div>
+
+
+ 
+<div class="inner-max group">
+  
+   
+<h2>{keyword}</h2>
+
+   <img id="banner-img" src="/static/imgs/" alt="51st Highland Division">
+  
+  
+<div class="nav-wrap group">
+    <span class="menu-icon menu-button">Menu</span>
+    <span class="menu-icon menu-button not-mobile">News</span>
+    <span class="menu-icon menu-button not-mobile">History</span>
+    <span class="menu-icon menu-button not-mobile">POW</span>
+    <span class="menu-icon menu-button not-mobile">Map</span>
+    <span class="search-button menu-button">Search</span>
+  </div>
+
+  
+<form id="nav-search-form" action="/search">
+    <input id="nav-search-string" name="q" type="text"><input id="nav-search-btn" value="Search" type="submit">
+  </form>
+
+ </div>
+
+
+
+ 
+<div class="content-wrapper">
+
+  
+<div class="breadcrumb-wrapper"><br>
+</div>
+
+ 
+  
+<div class="content-body">
+   
+<h1 class="red-baseline">
+    <span>{keyword}</span>
+   </h1>
+
+
+   
+    
+     
+
+
+
+
+
+
+ 
+  
+   
+<div class="image-wrapper full-width-img">
+
+    
+     <!-- we have a 780 version use launch -->
+     <span class="swipebox show-magnify"><img src="/ext/uploads/img780/" alt="Stalag XXB Memorial"></span>
+     
+<div class="img-show-full-size"></div>
+
+     
+<p class="img-caption">{manytext_bing}</p>
+</div>
+</div>
+</div>
+</div>
+<ul>
+  <li>Donate</li>
+
+</ul>
+
+
+
+
+
+
+<!-- Begin 33Across SiteCTRL (Previously ) -->
+
+<!-- End 33Across SiteCTRL -->
+</body>
+</html>
